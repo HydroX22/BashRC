@@ -1,0 +1,4 @@
+BashRC
+======
+
+custom Bash Style
