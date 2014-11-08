@@ -1,0 +1,17 @@
+alias ls='dir -l $LS_OPTIONS --color -h --group-directories-first'
+alias ll='dir'
+alias la='dir -la'
+
+alias c='clear'
+alias cls='clear && ls'
+
+alias _off='echo ""; echo ":: ByeBye ::"; shutdown -h now'
+alias _zip='tar -cvzf'
+alias _unzip='tar -xvf'
+alias _ascii='figlet'
+alias _rdir='while true; do clear && ls; sleep 0.2; done'
+alias _rbashrc='echo ""; echo ":: RELOAD BASHRC ::"; . ~/.bashrc'
+
+alias _service='service'
+
+alias _hdd='cfdisk /dev/vda'
